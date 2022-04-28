@@ -1,0 +1,59 @@
+Insertion sort:
+Advantages:
+-> It sorts the array only when it is really necessary.
+Disadvantages:
+-> The fact that elements may already be in their proper positions is overlooked. 
+     Therefore, they can be moved from these positions and then later moved back.
+-> If an item is being inserted, all elements greater than the one being inserted have to be moved
+-> When the size of an array is doubled, the sorting effort quadruples.
+Best Case: O(n)
+Worst Case: O(n^2)
+Average Case: Close to Worst Case
+
+Selection sort:
+Advantages:
+-> The required number of assignments can hardly be beaten by any other algorithm.
+Disadvantages:
+-> The total number of exchanges, 3(n-1), is the same for all cases
+Improvement:
+-> Improved by introducing a conditional swap
+All cases: O(n^2)
+
+Bubble sort:
+Advantages:
+-> Easy to implement
+Disadvantages:
+->Slow sorting: step by step up toward the top of the array 
+-> In addition, the algorithm concentrates only on the item that is being bubbled up.
+     All elements that distort the order are moved, even those that are already in their final positions 
+    (the situation analogous to that in insertion sort).
+Improvement:
+-> Improved by adding a flag
+-> Insignificant in the worst case.
+All cases: O(n^2)
+* Insertion sort is twice as fast as bubble sort
+
+Comb sort:
+Advantages:
+-> Large value are moved towards the end before proper sorting begins.
+* Comb sort is comparable to the performance of quicksort.
+Average case: O(n log n)
+Worst Case: O(n^2)
+
+Quick sort:
+Advantages:
+-> It outperforms other sorting methods by at least a factor of 2.
+Disadvantages:
+->  For arrays with fewer than 30 items, insertion sort is more efficient
+->  Difficult to control the partitioning process.
+Average case: O(n log n)
+Worst Case: O(n^2)
+
+Merge sort:
+Advantages:
+-> Makes partitioning as simple as possible
+Disadvantages:
+->  Needs additional storage for merging array.
+Improvements:
+-> Can be made more efficient by replacing recursion with iteration
+All cases: O(n log n)
