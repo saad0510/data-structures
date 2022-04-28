@@ -20,7 +20,7 @@ common data structures.
 1. [Hashing](./hashing/)
     - [Chained Hashing](./hashing/ChainedHash.cpp)
     - [Linear Hashing](./hashing/LinearHash.cpp)
-1. [Heap](./heap/Head_Array.cpp)
+1. [Heap](./heap/Heap_Array.cpp)
 1. [Binary Search Tree](./binary-search-tree/)
 1. [AVL Tree](./avl-trees/)
 1. [DSW algorithm](./DSW-algorithm/)
